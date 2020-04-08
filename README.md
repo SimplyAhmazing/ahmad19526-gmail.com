@@ -1,15 +1,9 @@
-<a href="https://www.twilio.com">
-  <img src="https://static0.twilio.com/marketing/bundles/marketing/img/logos/wordmark-red.svg" alt="Twilio" width="250" />
-</a>
-
-# IVR Phone Tree: IVR for beginners. Powered by Twilio - Python/Flask
-
-[![Build Status](https://travis-ci.org/TwilioDevEd/ivr-phone-tree-python.svg?branch=master)](https://travis-ci.org/TwilioDevEd/ivr-phone-tree-python)
+# COVID Hotline application - Python/Flask
 
 This is an application example implementing an automated phone line using
-Python 2.7 and [Flask](http://flask.pocoo.org/) web framework.
+Python 3.8 and [Flask](http://flask.pocoo.org/) web framework.
 
-[Read the full tutorial here](https://www.twilio.com/docs/tutorials/walkthrough/ivr-phone-tree/python/flask)!
+Based on [Twilio IVR tutorial](https://www.twilio.com/docs/tutorials/walkthrough/ivr-phone-tree/python/flask)!
 
 ## Local Development
 
@@ -18,8 +12,8 @@ This project is built using [Flask](http://flask.pocoo.org/) web framework.
 1. First clone this repository and `cd` into it.
 
    ```bash
-   $ git clone git@github.com:TwilioDevEd/ivr-phone-tree-python.git
-   $ cd ivr-phone-tree-python
+   $ git clone git@github.com:SimplyAhmazing/covid-hotline.git
+   $ cd covid-hotline
    ```
 
 1. Create a new virtual environment.
@@ -34,7 +28,7 @@ This project is built using [Flask](http://flask.pocoo.org/) web framework.
     - If using [virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/):
 
         ```bash
-        mkvirtualenv ivr-phone-tree-python
+        mkvirtualenv covi-hotline
         ```
 
 1. Install the dependencies.
